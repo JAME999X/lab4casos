@@ -1,0 +1,48 @@
+{
+  "casos": [
+    {
+      "id": "admisiones-becas",
+      "nombre": "Admisión y becas universitarias",
+      "descripcion": "Evaluación conjunta de admisión y asignación de becas para candidatos internacionales.",
+      "contexto": "Una universidad privada en Madrid recibe una solicitud de un estudiante internacional con alto rendimiento académico pero recursos económicos limitados.",
+      "decision": "Determinar si se concede la admisión y si corresponde una beca total, parcial o ninguna.",
+      "datos": "Expediente académico (8.9/10), carta de motivación, entrevista positiva, ingresos familiares estimados bajos, disponibilidad limitada de becas.",
+      "restricciones": "Presupuesto anual de becas, criterios de mérito y equidad, cupo máximo de estudiantes internacionales.",
+      "metricas": "1000 solicitudes/año, 20% admitidos, 10% con beca, presupuesto anual 500.000€.",
+      "riesgo": "Asignar becas sin criterios consistentes puede generar inequidad y riesgo reputacional."
+    },
+    {
+      "id": "tickets-ti",
+      "nombre": "Tickets internos de soporte TI",
+      "descripcion": "Gestión y priorización de incidencias internas en una organización.",
+      "contexto": "Un equipo de soporte TI recibe múltiples incidencias simultáneas en una empresa mediana con servicios digitales críticos.",
+      "decision": "Clasificar y priorizar un ticket para decidir si se resuelve, se escala o se trata como incidente crítico.",
+      "datos": "Incidencia reportada por 25 usuarios, afecta a sistema interno, horario laboral, historial de incidencias similares.",
+      "restricciones": "SLA de respuesta (4h), equipo de soporte limitado (5 técnicos), dependencia de proveedor externo.",
+      "metricas": "300 tickets/mes, 15% críticos, tiempo medio de resolución 6h.",
+      "riesgo": "Una mala priorización puede afectar servicios críticos y generar interrupciones operativas."
+    },
+    {
+      "id": "devoluciones-fraude",
+      "nombre": "Devoluciones y fraude en e-commerce",
+      "descripcion": "Evaluación de solicitudes de devolución con posible riesgo de fraude.",
+      "contexto": "Una tienda online analiza una solicitud de devolución de un cliente con comportamiento irregular en compras recientes.",
+      "decision": "Decidir si aprobar la devolución, revisarla manualmente o rechazarla por posible fraude.",
+      "datos": "Cliente con 5 devoluciones en 2 meses, importe alto (250€), pago con tarjeta, dirección repetida, motivo ambiguo.",
+      "restricciones": "Política de devoluciones (30 días), protección al cliente, control antifraude, coste de revisión manual.",
+      "metricas": "2000 pedidos/mes, tasa de devolución 12%, fraude estimado 3%.",
+      "riesgo": "Rechazar devoluciones legítimas afecta la experiencia; aceptar fraude impacta en pérdidas económicas."
+    },
+    {
+      "id": "documentacion-corporativa",
+      "nombre": "Asistente interno de documentación corporativa",
+      "descripcion": "Búsqueda y uso de documentación interna para resolver consultas operativas.",
+      "contexto": "Un empleado necesita responder a una consulta interna utilizando documentación corporativa dispersa y con múltiples versiones.",
+      "decision": "Determinar qué documento es relevante, si la información es fiable y cómo responder correctamente.",
+      "datos": "Consulta sobre procedimiento interno, múltiples documentos PDF, versiones sin control claro, acceso limitado por rol.",
+      "restricciones": "Políticas internas, control de acceso, riesgo de usar información desactualizada.",
+      "metricas": "500 consultas internas/mes, 30% requieren validación, tiempo medio de búsqueda 20 minutos.",
+      "riesgo": "Uso de documentación obsoleta puede generar errores operativos o incumplimientos internos."
+    }
+  ]
+}
